@@ -1,0 +1,25 @@
+artifact_path: file:D:/Octavio/Documents/GitHub/Gestion_Proyectos_IA_Modulo2_Semana5_Act5/Actividad5/fuentes/mlruns/1/models/m-2356ce1a439b49e287071da39bcabc52/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.13
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types:
+    - xgboost.core.Booster
+    - xgboost.sklearn.XGBClassifier
+mlflow_version: 3.17.1
+model_id: m-2356ce1a439b49e287071da39bcabc52
+model_size_bytes: 124783
+model_uuid: m-2356ce1a439b49e287071da39bcabc52
+prompts: null
+run_id: c8750de3020b4d1c96b9f14c967281ae
+utc_time_created: '2026-10-19 03:12:08.975429'
