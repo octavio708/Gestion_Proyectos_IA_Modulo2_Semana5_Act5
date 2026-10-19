@@ -1,0 +1,5 @@
+datos/datos_ini/*.csv
+datos/datos_limp/*.csv
+venv/
+.env
+datos/datos_ini/creditcard.csv
